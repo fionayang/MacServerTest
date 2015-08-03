@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4C4B9281B6F4A6700515071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4B9271B6F4A6700515071 /* main.m */; };
-		E4C4B92B1B6F4A6700515071 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4B92A1B6F4A6700515071 /* AppDelegate.m */; };
-		E4C4B92E1B6F4A6700515071 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4B92D1B6F4A6700515071 /* MasterViewController.m */; };
-		E4C4B9311B6F4A6700515071 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4B9301B6F4A6700515071 /* DetailViewController.m */; };
-		E4C4B9341B6F4A6700515071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C4B9321B6F4A6700515071 /* Main.storyboard */; };
-		E4C4B9361B6F4A6700515071 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C4B9351B6F4A6700515071 /* Images.xcassets */; };
-		E4C4B9391B6F4A6700515071 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4C4B9371B6F4A6700515071 /* LaunchScreen.xib */; };
 		E4C4B9451B6F4A6700515071 /* MacServerTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4B9441B6F4A6700515071 /* MacServerTestsTests.m */; };
+		E4C4B95C1B6F4E1D00515071 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4B9501B6F4E1D00515071 /* AppDelegate.m */; };
+		E4C4B95D1B6F4E1D00515071 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4C4B9511B6F4E1D00515071 /* LaunchScreen.xib */; };
+		E4C4B95E1B6F4E1D00515071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C4B9531B6F4E1D00515071 /* Main.storyboard */; };
+		E4C4B95F1B6F4E1D00515071 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4B9561B6F4E1D00515071 /* DetailViewController.m */; };
+		E4C4B9601B6F4E1D00515071 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C4B9571B6F4E1D00515071 /* Images.xcassets */; };
+		E4C4B9611B6F4E1D00515071 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4C4B9581B6F4E1D00515071 /* Info.plist */; };
+		E4C4B9621B6F4E1D00515071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4B9591B6F4E1D00515071 /* main.m */; };
+		E4C4B9631B6F4E1D00515071 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C4B95B1B6F4E1D00515071 /* MasterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,20 +30,20 @@
 
 /* Begin PBXFileReference section */
 		E4C4B9221B6F4A6700515071 /* MacServerTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacServerTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4C4B9261B6F4A6700515071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4C4B9271B6F4A6700515071 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E4C4B9291B6F4A6700515071 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E4C4B92A1B6F4A6700515071 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E4C4B92C1B6F4A6700515071 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		E4C4B92D1B6F4A6700515071 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		E4C4B92F1B6F4A6700515071 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		E4C4B9301B6F4A6700515071 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		E4C4B9331B6F4A6700515071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E4C4B9351B6F4A6700515071 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E4C4B9381B6F4A6700515071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E4C4B93E1B6F4A6700515071 /* MacServerTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacServerTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C4B9431B6F4A6700515071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4C4B9441B6F4A6700515071 /* MacServerTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacServerTestsTests.m; sourceTree = "<group>"; };
+		E4C4B94F1B6F4E1D00515071 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4C4B9501B6F4E1D00515071 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4C4B9521B6F4E1D00515071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E4C4B9541B6F4E1D00515071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4C4B9551B6F4E1D00515071 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E4C4B9561B6F4E1D00515071 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E4C4B9571B6F4E1D00515071 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E4C4B9581B6F4E1D00515071 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4C4B9591B6F4E1D00515071 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4C4B95A1B6F4E1D00515071 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		E4C4B95B1B6F4E1D00515071 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +67,7 @@
 		E4C4B9191B6F4A6700515071 = {
 			isa = PBXGroup;
 			children = (
-				E4C4B9241B6F4A6700515071 /* MacServerTests */,
+				E4C4B94E1B6F4E1D00515071 /* MacServerTests */,
 				E4C4B9411B6F4A6700515071 /* MacServerTestsTests */,
 				E4C4B9231B6F4A6700515071 /* Products */,
 			);
@@ -79,32 +80,6 @@
 				E4C4B93E1B6F4A6700515071 /* MacServerTestsTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E4C4B9241B6F4A6700515071 /* MacServerTests */ = {
-			isa = PBXGroup;
-			children = (
-				E4C4B9291B6F4A6700515071 /* AppDelegate.h */,
-				E4C4B92A1B6F4A6700515071 /* AppDelegate.m */,
-				E4C4B92C1B6F4A6700515071 /* MasterViewController.h */,
-				E4C4B92D1B6F4A6700515071 /* MasterViewController.m */,
-				E4C4B92F1B6F4A6700515071 /* DetailViewController.h */,
-				E4C4B9301B6F4A6700515071 /* DetailViewController.m */,
-				E4C4B9321B6F4A6700515071 /* Main.storyboard */,
-				E4C4B9351B6F4A6700515071 /* Images.xcassets */,
-				E4C4B9371B6F4A6700515071 /* LaunchScreen.xib */,
-				E4C4B9251B6F4A6700515071 /* Supporting Files */,
-			);
-			path = MacServerTests;
-			sourceTree = "<group>";
-		};
-		E4C4B9251B6F4A6700515071 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E4C4B9261B6F4A6700515071 /* Info.plist */,
-				E4C4B9271B6F4A6700515071 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E4C4B9411B6F4A6700515071 /* MacServerTestsTests */ = {
@@ -122,6 +97,24 @@
 				E4C4B9431B6F4A6700515071 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4C4B94E1B6F4E1D00515071 /* MacServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4C4B94F1B6F4E1D00515071 /* AppDelegate.h */,
+				E4C4B9501B6F4E1D00515071 /* AppDelegate.m */,
+				E4C4B9511B6F4E1D00515071 /* LaunchScreen.xib */,
+				E4C4B9531B6F4E1D00515071 /* Main.storyboard */,
+				E4C4B9551B6F4E1D00515071 /* DetailViewController.h */,
+				E4C4B9561B6F4E1D00515071 /* DetailViewController.m */,
+				E4C4B9571B6F4E1D00515071 /* Images.xcassets */,
+				E4C4B9581B6F4E1D00515071 /* Info.plist */,
+				E4C4B9591B6F4E1D00515071 /* main.m */,
+				E4C4B95A1B6F4E1D00515071 /* MasterViewController.h */,
+				E4C4B95B1B6F4E1D00515071 /* MasterViewController.m */,
+			);
+			path = MacServerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +197,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C4B9341B6F4A6700515071 /* Main.storyboard in Resources */,
-				E4C4B9391B6F4A6700515071 /* LaunchScreen.xib in Resources */,
-				E4C4B9361B6F4A6700515071 /* Images.xcassets in Resources */,
+				E4C4B9611B6F4E1D00515071 /* Info.plist in Resources */,
+				E4C4B9601B6F4E1D00515071 /* Images.xcassets in Resources */,
+				E4C4B95D1B6F4E1D00515071 /* LaunchScreen.xib in Resources */,
+				E4C4B95E1B6F4E1D00515071 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4C4B92B1B6F4A6700515071 /* AppDelegate.m in Sources */,
-				E4C4B92E1B6F4A6700515071 /* MasterViewController.m in Sources */,
-				E4C4B9281B6F4A6700515071 /* main.m in Sources */,
-				E4C4B9311B6F4A6700515071 /* DetailViewController.m in Sources */,
+				E4C4B9631B6F4E1D00515071 /* MasterViewController.m in Sources */,
+				E4C4B95C1B6F4E1D00515071 /* AppDelegate.m in Sources */,
+				E4C4B9621B6F4E1D00515071 /* main.m in Sources */,
+				E4C4B95F1B6F4E1D00515071 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,20 +244,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E4C4B9321B6F4A6700515071 /* Main.storyboard */ = {
+		E4C4B9511B6F4E1D00515071 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E4C4B9331B6F4A6700515071 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E4C4B9371B6F4A6700515071 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4C4B9381B6F4A6700515071 /* Base */,
+				E4C4B9521B6F4E1D00515071 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		E4C4B9531B6F4E1D00515071 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4C4B9541B6F4E1D00515071 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -422,6 +416,7 @@
 				E4C4B94A1B6F4A6700515071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4C4B94B1B6F4A6700515071 /* Build configuration list for PBXNativeTarget "MacServerTestsTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +425,7 @@
 				E4C4B94D1B6F4A6700515071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
